@@ -1,0 +1,108 @@
+article,aside,figure,figure img,figcaption,hgroup,footer,header,nav,section,video,object
+{
+    display: block
+}
+
+figure {
+    position: relative
+}
+
+figure img {
+    width: 100%
+}
+
+.container {
+    margin-left: 10pc;
+    margin-right: 10pc;
+}
+
+.row {
+    width: 100%;
+	/*
+    max-width: 1140px;
+    min-width: 755px;
+	*/
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.col{
+	padding: 5px;
+}
+
+.onecol,.twocol,.threecol,.fourcol,.fivecol,.sixcol,.sevencol,.eightcol,.ninecol,.tencol,.elevencol,.fiveboxes
+{
+    margin-right: 1.0%;
+    float: left;
+    min-height: 1px;
+}
+
+.row .onecol {
+    width: 4.85%;
+}
+
+.row .twocol {
+    width: 13.45%;
+}
+
+.row .threecol {
+    width: 22.75%;
+}
+
+.row .fiveboxes {
+    width: 17.6%;
+}
+
+.row .fourcol {
+    width: 30.75%;
+}
+
+.row .fivecol {
+    width: 39.45%;
+}
+
+.row .sixcol {
+    width: 47%;
+}
+
+.row .sevencol {
+    width: 56.75%;
+}
+
+.row .eightcol {
+    width: 65.4%;
+}
+
+.row .ninecol {
+    width: 73.2%;
+}
+
+.row .tencol {
+    width: 82.7%;
+}
+
+.row .elevencol {
+    width: 91.35%;
+}
+
+.row .twelvecol {
+    width: 98.5%;
+    float: left;
+}
+
+.last {
+    margin-right: 0px;
+}
+
+img,object,embed {
+    max-width: 100%;
+}
+
+img {
+    height: auto;
+}
+
+#login{
+	padding: 0;
+	margin: 0;
+}
